@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+<style>
+#bat{
+aimation:b 3s infinite;
+-webkit-animation:b 3s infinite;
+}
+
+@-webkit-keyframes b{
+              
+            0%{transform:rotateX(0deg);
+			-webkit-transform:rotate(40deg);top:10px;left:1px;}
+	       
+
+			
+
+			100%{ transform:rotateX(20deg);-webkit-transform:rotate(-30deg);left:100px; top:10px; }
+
+}
+  @keyframes b{
+              
+       0%{transform:rotateX(0deg);
+			-webkit-transform:rotate(40deg);top:10px;left:1px;}
+	       
+
+			
+
+			100%{ transform:rotateX(20deg);-webkit-transform:rotate(-30deg);left:100px; top:10px; }
+
+}
+  
+  
+@-webkit-keyframes myfirst {
+     0%   {right:0px; top:0px;}
+    25%  { right:900px; top:300px;}
+    50%  { right:1100px; top:220px;}
+    75%  { right:80px; top:20px;}
+    100% { right:0px; top:0px;}
+   }
+
+@keyframes myfirst {
+     0%   {right:0px; top:0px;}
+    25%  { right:900px; top:300px;}
+    50%  { right:1100px; top:220px;}
+    75%  { right:80px; top:20px;}
+    100% { right:0px; top:0px;}
+   }
+
+
+#boll
+  { 
+  -webkit-animation: myfirst 3s infinite;
+    animation:myfirst 3s infinite;
+  }
+
+</style>
+<body bgcolor="#666666">
+<div id="bat" style="position:absolute;top:10px;left:1px; margin-left:50px;">
+<div id="a1" style="background:#FFCC66; height:100px; width:20px; margin-left:14px; border-radius:5px 5px 0px 0px;"> </div>
+<div id="a2" style="position:absolute;background:#FFCC66; height:250px; width:50px;border-radius:0px 0px 12px 12px;"> </div>
+</div>
+<!---
+<div style="position:absolute; left:150px; top:10px;">
+<div id="a3" style="background:#FFCC66; height:100px; width:20px;  border-radius:5px 5px 0px 0px;margin-left:14px;"> </div>
+<div id="a4" style="position:absolute;background:#FFCC66; height:250px; width:50px;border-radius:0px 0px 12px 12px;"> a </div>
+</div>
+---->
+
+<div id="boll" style="position:absolute; background: #993300; height:50px; width:50px; border-radius:25px 25px;"> </div>
+</body>
+</html>
